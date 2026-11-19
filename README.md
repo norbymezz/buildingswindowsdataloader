@@ -6,7 +6,7 @@ Aplicación web adaptable a celulares para registrar ventanas por piso, departam
 
 **[Abrir Carga de ventanas](https://norbymezz.github.io/buildingswindowsdataloader/)**
 
-Los controles están optimizados para pantalla táctil y el formulario se acomoda en una columna en pantallas angostas. Si Pages aún no está activo, habilítalo en **Settings → Pages** seleccionando la rama **main** y la carpeta **/(root)**.
+En celulares aparece la barra **Vista para celular: activada** arriba. Tócala para ampliar aún más el texto y los controles. Si Pages aún no está activo, habilítalo en **Settings → Pages** seleccionando la rama **main** y la carpeta **/(root)**.
 
 ## Uso
 
@@ -14,7 +14,7 @@ Completa los campos y selecciona **Agregar ventana**. Los registros se conservan
 
 La descarga usa UTF-8 con BOM y separador punto y coma para facilitar la apertura en Excel con configuración regional en español. Las medidas se exportan con punto decimal y dos posiciones.
 
-En navegadores compatibles, selecciona **Cargar por voz** y dicta los datos, por ejemplo: “piso 3, departamento A, ventana V-01, alto 1,20, ancho 0,90”. Los campos reconocidos se completan automáticamente y se resaltan; si falta alguno, puedes completarlo manualmente. Revisa los valores antes de agregar la ventana. El dictado requiere permiso de micrófono y puede depender del navegador; la carga manual siempre está disponible.
+En navegadores compatibles, selecciona **Cargar por voz** y dicta los datos, por ejemplo: “piso 3, departamento A, ventana V-01, alto 1,20, ancho 0,90”. El micrófono puede escuchar hasta 45 segundos; toca **Detener dictado** cuando termines. Los campos reconocidos se completan automáticamente mientras dictas. Revisa los valores antes de agregar la ventana. El dictado requiere permiso de micrófono y puede depender del navegador; la carga manual siempre está disponible.
 
 ## Privacidad
 
