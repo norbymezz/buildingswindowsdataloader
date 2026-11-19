@@ -6,13 +6,13 @@ Aplicación web adaptable a celulares para registrar ventanas por piso, departam
 
 ### Abrir la aplicación
 
-**[Toca aquí para usar Carga de ventanas](https://norbymezz.github.io/buildingswindowsdataloader/)**
+**[Toca aquí para usar Carga de ventanas](https://norbymezz.github.io/buildingswindowsdataloader/?v=20261119-chrome2)**
 
 > Ábrela en el navegador del celular. El enlace de abajo lleva a los archivos de GitHub y no es la aplicación.
 
 [Ver el código en GitHub](https://github.com/norbymezz/buildingswindowsdataloader)
 
-La aplicación se adapta a la pantalla del celular y muestra el botón **Vista para celular** para ampliar los controles. Si el enlace de la aplicación no abre, habilita GitHub Pages en [Settings → Pages](https://github.com/norbymezz/buildingswindowsdataloader/settings/pages), con la rama **main** y la carpeta **/(root)**.
+La aplicación se adapta a la pantalla del celular y muestra el botón **Vista para celular** para ampliar los controles. Abre el enlace desde Chrome o usa **⋮ → Abrir en Chrome** si estás viendo el README dentro de GitHub. Si no ves cambios, recarga la página; el parámetro de versión del enlace ayuda a evitar una copia guardada. Si Pages no abre, revisa [Settings → Pages](https://github.com/norbymezz/buildingswindowsdataloader/settings/pages), con la rama **main** y la carpeta **/(root)**.
 
 ## Uso
 
@@ -20,7 +20,7 @@ Completa los campos y selecciona **Agregar ventana**. Los registros se conservan
 
 La descarga usa UTF-8 con BOM y separador punto y coma para facilitar la apertura en Excel con configuración regional en español. Las medidas se exportan con punto decimal y dos posiciones.
 
-En navegadores compatibles, selecciona **Cargar por voz** y dicta los datos de una ventana, por ejemplo: “piso 3, departamento A, ventana V-01, alto 1,20, ancho 0,90”. El micrófono escucha hasta **15 segundos por registro** y muestra una cuenta regresiva; también puedes tocar **Detener dictado** antes. Los campos reconocidos se completan automáticamente. Revisa los valores antes de agregar la ventana. El dictado requiere permiso de micrófono y puede depender del navegador; la carga manual siempre está disponible.
+En navegadores compatibles, selecciona **Cargar por voz** y dicta los datos de una ventana, por ejemplo: “piso 3, departamento A, ventana V-01, alto 1,20, ancho 0,90”. Chrome usa sesiones de voz de hasta **15 segundos** y muestra una cuenta regresiva; la página intenta reabrir la sesión si Chrome la corta. Toca **Detener dictado** al terminar. Los campos reconocidos se completan automáticamente. En Chrome, permite el micrófono para este sitio desde el icono junto a la dirección → **Permisos del sitio → Micrófono → Permitir**, y recarga. Si el audio se corta, cierra otras apps que usen el micrófono y prueba sin ahorro de batería. Revisa los valores antes de agregar la ventana.
 
 ## Privacidad
 
